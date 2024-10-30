@@ -1,0 +1,97 @@
+
+*,html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(97, 212, 244, 0.923);
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin-top: 0;
+}
+.container{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.men-haqimda{
+    margin-top: 30px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.photo{
+    width: 600px;
+    border-radius: 10px;
+
+}
+.for-image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.image-for{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.html{
+    width: 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+.ikkinchi{
+    text-align: center;
+    padding-top: 60px;
+}
+.for-logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper-child{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.for-icon{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid lightgray;
+    margin-top: 50px;
+}
+.center{
+    padding-top: 30px;
+    text-align: center;
+}
+.works{
+    margin-top: 20px;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+}
+.icons{
+    width: 150px;
+}
+.worked{
+    color: black;
+}
+.wrapper-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}  
