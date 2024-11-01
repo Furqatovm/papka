@@ -17,8 +17,8 @@ h1{
     padding: 10px 40px;
     text-decoration: none;
     background-color: transparent;
-    border: 2px solid lightgray;
     border-radius: 30px;
+    backdrop-filter: blur (20px);
     
 
 }
@@ -26,4 +26,21 @@ h1{
     background-color: transparent;
     border: 2px solid lightgray;
     border-radius: 30px;
+}
+.wrapper{
+    border: 2px solid lightgray;
+    margin: 20px 40px;
+    padding: 20px 20px;
+    backdrop-filter: blur(20px);
+    padding-bottom: 0;
+}
+img{
+    width: 800px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 0;
+    margin-top: 0;
 }
