@@ -1,0 +1,29 @@
+
+*,html{
+    background-color: orange;
+    background-image: url(https://torange.biz/photofxnew/186/HD/layout-banner-design-responsive-business-brochure-template-infographic-background-color-186912.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+}
+.menus, .works, .websites, .certificates{
+    display: block;
+    color: white;
+    font-size: 22px;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    
+
+}
+.about{
+    background-color: transparent;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+}
