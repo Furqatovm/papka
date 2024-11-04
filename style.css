@@ -19,12 +19,16 @@ a{
     font-size: 20px;
 }
 nav{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     background-color: rgba(97, 212, 244, 0.923);
     border-radius: 10px;
     padding: 30px 50px;
     margin-top: 0;
+}
+.header-top{
+    position: relative;
 }
 .container{
     margin-right: 60px;
@@ -102,3 +106,49 @@ nav{
     justify-content: space-between;
     gap: 20px;
 }  
+.ieltss{
+    color: black;
+   
+    padding-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid lightgray;
+
+}
+.ielts{
+    color: black;
+}
+.setifikat{
+    padding-bottom: 15px;
+    
+}
+.certificates{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.certi{
+    display: flex;
+    justify-content: flex-start;
+}
+.ieltss{
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.wrapper-certifikates{
+    display: flex;
+}
+.certikat{
+    text-align: center;
+    margin-top: 40px;
+
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/05/54/47/79/360_F_554477926_yKEcMeDTD1oLqKQCjvpryeT5zHLMunNh.jpg);
+}
