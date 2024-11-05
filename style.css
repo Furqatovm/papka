@@ -3,7 +3,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
+    background-image: url(https://as1.ftcdn.net/jpg/01/75/10/58/480_F_175105823_BOIHE2iCaTFaQr6OxRXpeQ0JVAHPM4AO.jpg?token=1731995776__YkhW-LAl0WaDr1Jj40qxFFwD2b9yXrRYesik8NikhU);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -14,18 +21,20 @@
 }
 
 a{
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 nav{
     position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(97, 212, 244, 0.923);
     border-radius: 10px;
     padding: 30px 50px;
     margin-top: 0;
+    
 }
 .header-top{
     position: relative;
@@ -34,7 +43,8 @@ nav{
     margin-right: 60px;
     margin-left: 60px;
 }
-.men-haqimda{
+#men-haqimda{
+    gap: 30px;
     margin-top: 30px;
     text-align: center;
     background-color: yellow;
@@ -48,6 +58,7 @@ nav{
 .for-image{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
 }
 .image-for{
@@ -84,7 +95,7 @@ nav{
     border: 3px solid lightgray;
     margin-top: 50px;
 }
-.center{
+#center{
     padding-top: 30px;
     text-align: center;
 }
@@ -99,7 +110,7 @@ nav{
     width: 150px;
 }
 .worked{
-    color: black;
+    color: white;
 }
 .wrapper-2{
     display: flex;
@@ -116,7 +127,7 @@ nav{
 
 }
 .ielts{
-    color: black;
+    color: white;
 }
 .setifikat{
     padding-bottom: 15px;
@@ -148,7 +159,4 @@ nav{
     text-align: center;
     margin-top: 40px;
 
-}
-body{
-    background-image: url(https://t4.ftcdn.net/jpg/05/54/47/79/360_F_554477926_yKEcMeDTD1oLqKQCjvpryeT5zHLMunNh.jpg);
 }
