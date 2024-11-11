@@ -144,7 +144,7 @@ nav{
     padding-bottom: 15px;
     
 }
-.certificates{
+/* .certificates{
     background-color: transparent;
     backdrop-filter: blur(20px);
     border: 2px solid lightgray;
@@ -154,8 +154,8 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
-}
+    gap: 20px; 
+}*/
 .certi{
     display: flex;
     justify-content: flex-start;
@@ -205,6 +205,18 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.certificates{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .insta{
     color: white;
     font-size: 20px;
@@ -213,8 +225,7 @@ footer{
     .photo{
         width: 300px;
     }*,html{
-       padding-left: auto;
-       padding-right: auto;
+       padding: ;
        scroll-behavior: smooth;
     }
     .wrapperlink{
