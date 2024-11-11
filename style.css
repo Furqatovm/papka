@@ -210,8 +210,8 @@ footer{
        padding-left: auto;
        padding-right: auto;
     }
-    .wrapper-link{
-        text-transform: none;
+    .wrapperlink{
+        display: none;
     }
     
 }
