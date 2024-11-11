@@ -95,6 +95,7 @@ nav{
     padding-top: 30px;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 10px 20px;
 }
 .for-icon{
     background-color: transparent;
@@ -201,6 +202,18 @@ footer{
 .insta{
     color: white;
     font-size: 20px;
+}
+@media (max-width: 450px) {
+    .photo{
+        width: 300px;
+    }*,html{
+       padding-left: auto;
+       padding-right: auto;
+    }
+    .wrapper-link{
+        text-transform: none;
+    }
+    
 }
 
 
