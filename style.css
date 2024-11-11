@@ -3,14 +3,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
 
+html {
     background-image: url(https://as1.ftcdn.net/jpg/01/75/10/58/480_F_175105823_BOIHE2iCaTFaQr6OxRXpeQ0JVAHPM4AO.jpg?token=1731995776__YkhW-LAl0WaDr1Jj40qxFFwD2b9yXrRYesik8NikhU);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -49,7 +49,6 @@ nav{
     gap: 30px;
     margin-top: 30px;
     text-align: center;
-    background-color: yellow;
     border-radius: 10px;
 }
 .photo{
@@ -68,12 +67,13 @@ nav{
 .image-for{
     padding-top: 20px;
     font-size: 20px;
+
     font-family: Arial, Helvetica, sans-serif;
 
 
 }
-.html{
-    width: 40px;
+.photo {
+    width: 100%;
 }
 .logo{
     display: flex;
@@ -174,7 +174,8 @@ nav{
 
 }
 .instagramm{
-    width: 30px;
+    width: 35px;
+    border-radius: 50px;
 }
 .logoss{
     display: flex;
@@ -225,7 +226,6 @@ footer{
     .photo{
         width: 300px;
     }*,html{
-       padding: ;
        scroll-behavior: smooth;
     }
     .wrapperlink{
@@ -233,6 +233,10 @@ footer{
     }
     body{
         width: 100%;
+    }
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
 }
