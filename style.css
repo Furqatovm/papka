@@ -209,7 +209,7 @@ footer{
     color: white;
     font-size: 20px;
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .photo{
         width: 300px;
     }*,html{
@@ -219,6 +219,9 @@ footer{
     }
     .wrapperlink{
         display: none;
+    }
+    body{
+        width: 100%;
     }
     
 }
