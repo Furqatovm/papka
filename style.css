@@ -199,6 +199,12 @@ footer{
     display: block;
     text-align: center;
 }
+
+.wrapperlink{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 .insta{
     color: white;
     font-size: 20px;
@@ -209,6 +215,7 @@ footer{
     }*,html{
        padding-left: auto;
        padding-right: auto;
+       scroll-behavior: smooth;
     }
     .wrapperlink{
         display: none;
